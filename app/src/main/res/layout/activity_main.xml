@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/abc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday"
+        android:textSize="20sp"
+        android:layout_above="@id/imageView"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="#92ACFFD7"
+        android:text="May the joy that you have spread in the past come back to you on this day. Wishing you a very happy birthday!"
+        android:textSize="20sp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ab"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
